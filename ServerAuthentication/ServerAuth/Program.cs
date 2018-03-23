@@ -13,7 +13,8 @@ namespace ServerAuth
 {
     class Program
     {
-
+        //Modified from a Microsoft ADC example: 23-03-2018
+        
         //TenantId and clientId as seen from Azure AAD portal, 
         //see https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-create-service-principal-portal
         //on how to create secret key for an client application.
