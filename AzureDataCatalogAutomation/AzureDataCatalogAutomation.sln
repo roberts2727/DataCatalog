@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientSideImportExport", "..\..\data-catalog-dotnet-import-export\ADCImportExport\ClientSideImportExport.csproj", "{93885935-BB9D-459D-9A70-45A3FCCF2E75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataCatalogImportHttpFunction", "DataCatalogImportHttpFunction\DataCatalogImportHttpFunction.csproj", "{CC3D8430-07D7-4D0A-B703-FE4FB4B7F05A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,8 +35,27 @@ Global
 		{93885935-BB9D-459D-9A70-45A3FCCF2E75}.Release|x64.Build.0 = Release|Any CPU
 		{93885935-BB9D-459D-9A70-45A3FCCF2E75}.Release|x86.ActiveCfg = Release|Any CPU
 		{93885935-BB9D-459D-9A70-45A3FCCF2E75}.Release|x86.Build.0 = Release|Any CPU
+		{CC3D8430-07D7-4D0A-B703-FE4FB4B7F05A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC3D8430-07D7-4D0A-B703-FE4FB4B7F05A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC3D8430-07D7-4D0A-B703-FE4FB4B7F05A}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{CC3D8430-07D7-4D0A-B703-FE4FB4B7F05A}.Debug|ARM.Build.0 = Debug|Any CPU
+		{CC3D8430-07D7-4D0A-B703-FE4FB4B7F05A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CC3D8430-07D7-4D0A-B703-FE4FB4B7F05A}.Debug|x64.Build.0 = Debug|Any CPU
+		{CC3D8430-07D7-4D0A-B703-FE4FB4B7F05A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CC3D8430-07D7-4D0A-B703-FE4FB4B7F05A}.Debug|x86.Build.0 = Debug|Any CPU
+		{CC3D8430-07D7-4D0A-B703-FE4FB4B7F05A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC3D8430-07D7-4D0A-B703-FE4FB4B7F05A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC3D8430-07D7-4D0A-B703-FE4FB4B7F05A}.Release|ARM.ActiveCfg = Release|Any CPU
+		{CC3D8430-07D7-4D0A-B703-FE4FB4B7F05A}.Release|ARM.Build.0 = Release|Any CPU
+		{CC3D8430-07D7-4D0A-B703-FE4FB4B7F05A}.Release|x64.ActiveCfg = Release|Any CPU
+		{CC3D8430-07D7-4D0A-B703-FE4FB4B7F05A}.Release|x64.Build.0 = Release|Any CPU
+		{CC3D8430-07D7-4D0A-B703-FE4FB4B7F05A}.Release|x86.ActiveCfg = Release|Any CPU
+		{CC3D8430-07D7-4D0A-B703-FE4FB4B7F05A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8053BD28-145D-4BC4-905A-6D1E8CCF1F0A}
 	EndGlobalSection
 EndGlobal
